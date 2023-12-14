@@ -6,4 +6,9 @@ def forloop(request):
     d={'Name':'Hemani'}
     return render(request,'forloop.html',d)
 
+def forloop2(request):
+    
+    d={'Name':'Hemani'}
+    return render(request,'forloop.html',d)
+
 
